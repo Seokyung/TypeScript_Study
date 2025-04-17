@@ -1,0 +1,16 @@
+{
+	"name": "typescript-basic",
+	"version": "1.0.0",
+	"description": "코드잇의 타입스크립트 강의를 듣고 배운 내용 정리중...✍️",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc",
+		"start": "node main.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"typescript": "^5.8.3"
+	}
+}
