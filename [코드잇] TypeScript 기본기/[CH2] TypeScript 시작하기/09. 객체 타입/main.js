@@ -21,5 +21,6 @@ let obj = {
 //ts
 let stock2 = {
     c001: 1,
+    // c002: "jeans", // Error: c002의 값은 number 타입이어야 함
 };
 console.log(stock2);
