@@ -37,10 +37,9 @@ function addManyToCart(...ids) {
         addToCart(id);
     }
 }
-// console.log(mallStock, mallCart);
-console.log(codeItMall.stock, codeItMall.cart);
 console.log(codeItMall.addManyToCart(...Object.keys(codeItMall.stock)));
 console.log(mallStock, mallCart);
+// console.log(mallStock, mallCart);
 // const result1 = addToCart("c001", 3);
 // console.log(`result 1: ${result1}`);
 // console.log(mallStock, mallCart);
