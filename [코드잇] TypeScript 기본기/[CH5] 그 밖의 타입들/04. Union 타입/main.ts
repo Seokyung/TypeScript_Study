@@ -26,7 +26,7 @@ interface ShoeProduct extends Product {
 	isHandmade: boolean;
 }
 
-// Union 타입: A타입 | B타입 (두 타입 다 파라미터로 쓸 수 있음)
+// Union 타입(|): A타입 | B타입 (두 타입 다 파라미터로 쓸 수 있음)
 const printSizes = (product: ClothingProduct | ShoeProduct) => {
 	const availableSizes = product.sizes.join(", ");
 	console.log(`${product.name}의 사이즈: ${availableSizes}`);
