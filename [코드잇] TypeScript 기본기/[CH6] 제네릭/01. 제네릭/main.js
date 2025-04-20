@@ -27,6 +27,6 @@ printArray([true, false]);
 const point = [1, 2];
 const fullName = ["Kim", "Gildong"];
 const triangle = [90, "45", 45];
-// map 함수 제네릭
+// Map 객체 제네릭
 // Map<key, value>
 const map = new Map();
