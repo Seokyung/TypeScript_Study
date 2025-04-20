@@ -46,6 +46,6 @@ const point: Pair<number> = [1, 2];
 const fullName: Pair<string> = ["Kim", "Gildong"];
 const triangle: Triangle<number, string, number> = [90, "45", 45];
 
-// map 함수 제네릭
+// Map 객체 제네릭
 // Map<key, value>
 const map = new Map<string, Box>();
